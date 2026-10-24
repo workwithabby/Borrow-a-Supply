@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- viewport-fit=cover is needed for safe-area insets (notch, gesture bar). Zoom stays enabled for accessibility. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#F5F5F5" />
+    <link rel="icon" type="image/png" href="./logo.png" />
+    <title>Borrow-a-Supply</title>
+  </head>
+  <body>
+    <div id="app">
+      <main id="view" class="view"></main>
+      <nav id="tabbar" class="tabbar" aria-label="Main" hidden></nav>
+      <div id="overlay-root"></div>
+      <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
